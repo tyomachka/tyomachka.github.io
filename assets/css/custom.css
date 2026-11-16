@@ -83,6 +83,66 @@ p b {
   color: var(--muted-text);
 }
 
+# 1 pap
+ul,
+ol {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.4rem;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.45rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+# 2 pap
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+table thead th {
+  background: rgba(255, 255, 255, 0.03);
+  color: #ffffff;
+  text-align: left;
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+}
+
+table tbody td {
+  padding: 0.9rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e5e7eb;
+}
+
+table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.01);
+}
+
+table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
 # 4
 main section,
 article,
